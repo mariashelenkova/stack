@@ -1,8 +1,8 @@
 ﻿#include <iostream>
+
 #include <vector>
 
 using namespace std;
-
 template <class T>
 
 class Stack 
@@ -18,6 +18,7 @@ public:
 	Stack(const Stack& c) 
 	{
 		data.clear();
+
 		count = c.count;
 
 		for (int i = 0; i < count; ++i) 
